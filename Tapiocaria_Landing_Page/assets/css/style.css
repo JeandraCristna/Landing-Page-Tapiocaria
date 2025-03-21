@@ -1,20 +1,21 @@
 :root {
-    --primary: #ff8201;
-    --secondary: #a1a2a6;
+    --primary: #ff5101;
+    --secondary: #ffb701;
+    --amarelo-suave: #fff394;
     --text-color: #fff;
     --text-tertiary: #5d5d5d;
     --text-secondary: #000;
 }
 
 * {
-    font-family: "Montserrat"; /*Definindo o padrão de fonte para todos os texto */
+    font-family: "Pacifico", cursive; /*Definindo o padrão de fonte para todos os texto */
     margin: 0; /* tirando todas as margens de todos os elementos*/
     padding: 0; /* tirando todos os espaçamentos de todos elementos*/
     box-sizing: border-box; /* para os elementos não passarem da area util de uma div */
 }
 /* Event form*/
 #event-descripition {
-    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("../img/Banner01.jpg");
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("../img/Banner01.jpg");
     background-position: center;
     background-size: cover;
     height: 85vh; /*85% da altura da tela*/
@@ -26,7 +27,7 @@
 
 #disclaimer h2,
 #disclaimer .event-date {
-    color: var(--primary); /* chamando a variavel 'primary'*/
+    color: var(--secondary); /* chamando a variavel 'primary'*/
 }
 
 #disclaimer h2 {
@@ -49,4 +50,57 @@
 
 #disclaimer .event-date {
     font-weight: bold;
+}
+
+/* Sessão de benefícios*/
+#key-benefits h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: .3em;
+    font-size: 2.5em;
+    color: var(--text-color);
+    font-weight: bold; /* reduzindo a intensidade do negrito*/
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    
+    margin: 0 auto;
+    background-color: var(--amarelo-suave);
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+}
+
+.benefit .benefit-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+.benefit-1 {
+    background-image: url(../img/TapDoce01.jpeg);
+}
+
+.benefit-2 {
+    background-image: url(../img/TapSalgada01.jpeg);
+}
+
+.benefit-3 {
+    background-image: url(../img/Caldo01.webp);
+}
+
+.benefit-4 {
+    background-image: url(../img/Bebidas.avif);
 }
