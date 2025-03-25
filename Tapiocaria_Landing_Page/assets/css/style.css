@@ -66,8 +66,7 @@
 .benefits {
     display: flex;
     justify-content: space-around;
-    padding: 2em;
-    
+    padding: 3em 8em 3em 8em;
     margin: 0 auto;
     background-color: var(--amarelo-suave);
 }
