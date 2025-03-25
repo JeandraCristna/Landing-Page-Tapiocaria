@@ -1,14 +1,14 @@
 :root {
     --primary: #ff5101;
     --secondary: #ffb701;
-    --amarelo-suave: #fff394;
+    --amarelo-suave: #fad09f;
     --text-color: #fff;
     --text-tertiary: #5d5d5d;
     --text-secondary: #000;
 }
 
 * {
-    font-family: 'Courier New', Courier, monospace ; /*Definindo o padrão de fonte para todos os texto */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, "Noto Sans", Arial, "Odoo Unicode Support Noto", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ; /*Definindo o padrão de fonte para todos os texto */
     margin: 0; /* tirando todas as margens de todos os elementos*/
     padding: 0; /* tirando todos os espaçamentos de todos elementos*/
     box-sizing: border-box; /* para os elementos não passarem da area util de uma div */
@@ -88,6 +88,12 @@
     background-position: center;
     margin-bottom: 1em;
     border: 5px solid var(--primary);
+}
+
+.Titulos {
+ font-size: 2.5em;
+ color: var(--text-tertiary);
+ 
 }
 
 .benefit-1 {
