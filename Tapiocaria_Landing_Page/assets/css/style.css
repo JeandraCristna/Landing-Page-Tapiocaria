@@ -32,14 +32,15 @@
 
 #disclaimer h2 {
     font-size: 3em;
-    margin-bottom: 1em; /*para afastar o titulo dos elementos abaixo*/
+    margin-bottom: 0.5em; /*para afastar o titulo dos elementos abaixo*/
+    font-weight: 800;
 }
 
 #disclaimer .about-event {
     font-size: 1.6em;
     text-transform: uppercase; /* todo o texto em caixa alta*/
     max-width: 350px;
-    font-weight: bold; /* deixa todo o texto em negrito*/
+    font-weight: 700; /* deixa todo o texto em negrito*/
     margin-bottom: 1em;
 }
 
@@ -78,6 +79,7 @@
     align-items: center;
     max-width: 20%;
     color: var(--text-tertiary);
+    font-weight: 700;
 }
 
 .benefit .benefit-img {
@@ -93,6 +95,8 @@
 .Titulos {
  font-size: 2.5em;
  color: var(--text-tertiary);
+ font-weight: 700;
+ margin-bottom: .8em;
  
 }
 
@@ -112,3 +116,50 @@
 .benefit-4 {
     background-image: url(../img/Bebidas.avif);
 }
+
+.btn_VerCardapio {
+ font-size: 12px;
+}
+
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+
+.btn-2 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    
+  }
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-2:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+   
+  }
+  
