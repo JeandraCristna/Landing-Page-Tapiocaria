@@ -12,6 +12,7 @@
     margin: 0; /* tirando todas as margens de todos os elementos*/
     padding: 0; /* tirando todos os espaçamentos de todos elementos*/
     box-sizing: border-box; /* para os elementos não passarem da area util de uma div */
+  
 }
 /* Event form*/
 #event-descripition {
