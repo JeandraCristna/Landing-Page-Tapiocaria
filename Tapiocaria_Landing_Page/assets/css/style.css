@@ -143,22 +143,19 @@
  background-color: var(--primary);
 }
 
-.container {
-    margin: o auto;
-    max-width: max-content;
-}
+
 
 .card {
-    border-bottom: solid #ff5101;
-    border-top: 0;
-    border-left: 0 ;
-    border-right: 0;
-   
+   width: 26rem;
+ 
+ 
 }
 
 .card:hover  {
     transform: scale(1.05);
     transition-duration: 1s;
-    
+}
+
+
 
  
